@@ -1,12 +1,29 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Header from "@/components/Header";
+import HeroSection from "@/components/HeroSection";
+import SchoolSection from "@/components/SchoolSection";
+import EverydaySection from "@/components/EverydaySection";
+import TopPicksSection from "@/components/TopPicksSection";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-gray-50">
+      <Header />
+      
+      <main className="pb-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          {/* Left column */}
+          <div>
+            <HeroSection />
+            <TopPicksSection />
+          </div>
+          
+          {/* Right column */}
+          <div>
+            <SchoolSection />
+            <EverydaySection />
+          </div>
+        </div>
+      </main>
     </div>
   );
 };

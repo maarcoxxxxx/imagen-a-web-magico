@@ -15,6 +15,10 @@ const buttonVariants = cva(
         secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        swirlzy: "bg-green-accent text-white hover:bg-green-light shadow-button rounded-full font-bold",
+        hero: "bg-gradient-orange text-white hover:opacity-90 shadow-button rounded-full font-bold px-8 py-3",
+        price: "bg-green-accent text-white rounded-full px-3 py-1 text-sm font-bold",
+        explore: "bg-orange-primary text-white hover:bg-orange-light rounded-full px-6 py-2 font-bold",
       },
       size: {
         default: "h-10 px-4 py-2",

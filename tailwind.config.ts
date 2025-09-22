@@ -57,11 +57,37 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        orange: {
+          primary: "hsl(var(--orange-primary))",
+          light: "hsl(var(--orange-light))",
+          bg: "hsl(var(--orange-bg))",
+        },
+        blue: {
+          primary: "hsl(var(--blue-primary))",
+          light: "hsl(var(--blue-light))",
+        },
+        green: {
+          accent: "hsl(var(--green-accent))",
+          light: "hsl(var(--green-light))",
+        },
+        pink: {
+          accent: "hsl(var(--pink-accent))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      backgroundImage: {
+        'gradient-orange': 'var(--gradient-orange)',
+        'gradient-blue': 'var(--gradient-blue)',
+        'gradient-warm': 'var(--gradient-warm)',
+      },
+      boxShadow: {
+        'soft': 'var(--shadow-soft)',
+        'card': 'var(--shadow-card)',
+        'button': 'var(--shadow-button)',
       },
       keyframes: {
         "accordion-down": {
